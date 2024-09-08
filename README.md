@@ -73,6 +73,41 @@ body {
 }
 
 .input_group input {
-  수업시간에 다시 넣기
+   width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fafafa;
+}
+.login_button {
+  width: 100%;
+  padding: 14px 0;
+  background-color: #03C75A;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.login_button:hover {
+  background-color: #02a04d;
+}
+.extra_options {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.extra_options a {
+  color: #666;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.extra_options a:hover {
+  text-decoration: underline;
 }
 ```
