@@ -1,4 +1,9 @@
 # IT-VISION-SCHOOL-CLASS_2
+## 폰트어썸 스크립트
+### html
+```html
+<script src="https://kit.fontawesome.com/e990e4521f.js" crossorigin="anonymous"></script>
+```
 ## 로그인 페이지 만들기 
 ### html
 ```html
