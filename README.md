@@ -4,6 +4,44 @@
 ```html
 <script src="https://kit.fontawesome.com/e990e4521f.js" crossorigin="anonymous"></script>
 ```
+
+## 지난시간 about_me
+### html
+```html
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about_me</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/about_me.css">
+</head>
+<body>
+  <section id="about" class="about">
+    <div class="container">
+      <div class="title">
+        <h4>Who Am I</h4>
+        <h2>Let me introduce myself</h2>
+      </div>
+      <div class="about_me">
+        <div class="left">
+          <img src="./image/me.jpg" alt="내 사진">
+        </div>
+        <div class="right">
+          안녕하세요. 저는 ooo입니다.
+          현재 서울에 거주하며 학교를 다니고 있습니다.
+          저는 긍정적이고 성실한 성격을 지녀 주변 사람들과 좋은 관계를 유지하고 있습니다.
+          여가 시간에는 게임을 즐기며,지금은 인서울 대학을 위해 꾸준히 노력하고 있습니다.
+          앞으로 3d 게임 분야에서 전문가로 성장하고 싶습니다.제 강점을 살려 계속해서 발전해 나가려고 노력하고 있습니다. 감사합니다.
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+```
+
 ## 로그인 페이지 만들기 
 ### html
 ```html
