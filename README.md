@@ -1,4 +1,57 @@
 # IT-VISION-SCHOOL-CLASS_2
+## my site 반응형
+### css
+```css
+/* media */
+@media screen and (max-width: 1100px){
+  main .container{
+    width: 992px;
+  }
+  section .container{
+    width:600px;
+  }
+  section .about_me .left{
+    width:100%;
+    margin-bottom: 1.5rem;
+  }
+  section  .about_me .right{
+    width:100%;
+    padding:0;
+  }
+  section .strength_wrap .strength_inner{
+    width:48%;
+    margin-bottom: 1.5rem;
+    margin-right: 0;
+  }
+section .strength_wrap .strength_inner:nth-child(2n+1){
+    margin-right:4%; 
+  }
+  section .portfolio_me .portfolio_inner{
+    width:48%;
+    margin-right: 0;
+  }
+  section .portfolio_me .portfolio_inner:nth-child(2n+1){
+    margin-right:4%;
+  }
+}
+
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 576px){
+  
+}
+
+@media (max-width: 400px){
+  
+}
+```
+
 ## 폰트어썸 스크립트
 ### html
 ```html
