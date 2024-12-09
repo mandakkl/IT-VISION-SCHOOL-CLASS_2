@@ -691,6 +691,20 @@ section.contact .contact_me .right button{
     font-size: 3rem; 
   }
 }
+
+/* header active */
+header.active{
+  background-color:rgba(0,0,0);
+  animation:fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
 ```
 ### js
 ```js
@@ -722,6 +736,39 @@ section.contact .contact_me .right button{
   }
   writeTxt();
 })();
+
+/*  header 태그에 active 클래스 추가 및 삭제 */
+const headerEl = document.querySelector("header");
+window.addEventListener('scroll', function(){
+  requestAnimationFrame(scrollCheck);
+});
+function scrollCheck(){
+  let browerScrollY = window.scrollY ? window.scrollY : window.pageYOffset;
+  if(browerScrollY > 0){
+    headerEl.classList.add("active");
+  }else{
+    headerEl.classList.remove("active");
+  }
+}
+
+/* 애니메이션 스크롤 이동 */
+const animationMove = function(selector){
+const targetEl = document.querySelector(selector);
+const browserScrollY = window.pageYOffset;
+const targetScorllY = targetEl.getBoundingClientRect().top + browserScrollY;
+ window.scrollTo({ top: targetScorllY, behavior: 'smooth' });
+};
+// 스크롤 이벤트 연결하기
+const scollMoveEl = document.querySelectorAll("[data-animation-scroll='true']"); 
+for(let i = 0; i < scollMoveEl.length; i++){
+  scollMoveEl[i].addEventListener('click', function(e){
+    const target = this.dataset.target;
+    animationMove(target);
+  });
+}
+
+
+
 ```
 
 ## 폰트어썸 스크립트
