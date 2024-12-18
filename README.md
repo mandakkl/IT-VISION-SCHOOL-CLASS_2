@@ -8,6 +8,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <!--카카오톡 썸네일 이미지-->
+  <meta property="og:url" content="자신의 주소">
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="자신의 주소/images/kakao_img.png">
+    <meta property="og:description" content="아무게 포트폴리오 입니다.">
+
   <title>shj Portfolio</title>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/e990e4521f.js" crossorigin="anonymous"></script>
